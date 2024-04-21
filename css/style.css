@@ -1,0 +1,283 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Ubuntu", sans-serif;
+}   
+.clr{clear: both;}
+html{
+    scroll-behavior: smooth;
+    background-color:white;
+    
+}
+
+header{     
+    background-image: url("../images/bannernew.jpg");
+    background-size: 100%;
+    background-position: top center; 
+    background-attachment: fixed; 
+    background-repeat: no-repeat;      
+    height: 100%;
+    width:100%;    
+}
+.menu{
+    position: fixed ;
+    top: 0;/**/
+    width: 100%;
+    z-index: 999;
+    background-color: black;
+    font-family: "Ubuntu", sans-serif;
+    transition: all 0.3s ease;
+}
+
+
+a.ptrhome{
+    font-family: "Pacifico";
+    margin-left: 8%;
+    font-size: 30px;
+    color: white;
+    font-weight: 500;
+    transition: all 0.3 ease; 
+}
+
+.contenedor{
+    display: inline-block;
+    width: 70%;
+}
+.cmenu{    
+    display: none;
+}
+.cmenu img{
+    width: 60%;
+}
+
+.cnav{
+    width:100%;
+    text-align: right;
+}
+
+@media screen and (max-width:700px) {
+    .contenedor{
+        width: 50px;
+        margin-top: 10px;
+        margin-right: 10px;
+        display: inline-block;
+        float: right;     
+    }    
+    .cnav {
+        display:none;
+    }
+    .cmenu{
+        display: block;
+        text-align: right;
+    }
+}     
+
+span{
+    color: rgba(248, 31, 96, 0.973);
+    font-family: "Pacifico";
+}
+a.homeright{
+    padding-right: 20px;
+    color: white;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-size: 18px;      
+}
+
+a:hover{
+    color:  rgba(248, 31, 96, 0.973);
+}
+
+.textId{
+    margin-left: 8%;
+    margin-top: 15%;
+    color: white;    
+    margin-bottom: 3%;
+} 
+.textId p{
+    font-size: 25px;
+}
+.textId h1{
+    font-size: 80px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#sp1{
+    font-size:40px;
+}
+.boton{    
+    position: relative;
+    margin-left: 8%;
+    
+}
+
+.boton a{
+    display: inline-block;
+    background-color:  rgba(248, 31, 96, 0.973);
+    border: solid rgba(248, 31, 96, 0.973);
+    color: white;
+    border-radius: 8px;
+    font-weight: bold;
+    padding: 10px;    
+    gap: 3em;
+    margin-right: 15px;      
+    margin-bottom: 20%;
+     
+}
+.boton a:hover{
+    background-color: black;    
+}
+.boton a img{
+    width: 0.8em;
+}
+
+section{    
+    height:150vh ; 
+    text-align: center;   
+}
+#About, #Projects{
+    background-color:white;
+}
+.section1{
+    position: relative;
+    top: 30px;      
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.section1 h2{
+    font-size: 40px;
+}
+.section1 p{
+    font-size: 30px;
+}
+.contenedor{
+    position: relative;
+    margin: auto;
+    border: solid;
+}
+.cimagA{
+    float: left;
+   
+}
+.cimagA img{
+   border-radius: 20px;
+}
+.ctextA{
+    display: inline;
+}
+
+#Skills, #Contact{
+    background-color:black;
+}
+
+#Skills{
+    background-image: url("../images/bannernew.jpg");
+    background-size: 100%;
+    background-position: top center; 
+    background-attachment: fixed; 
+    background-repeat: no-repeat;      
+    height: 100%;
+    width:100%;    
+}
+.section2{
+    position: relative;
+    top: 30px;        
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.section2 h2{
+    font-size: 40px;
+    color: white;
+}
+.section2 p{
+    font-size: 30px;
+    color: white;
+}
+footer{
+    background-color: white;
+}
+footer div {
+    text-align: center;
+    padding: 20px;
+}
+#Contact{
+    background-image: url("../images/bannernew.jpg");
+    background-size: 100%;
+    background-position: top center; 
+    background-attachment: fixed; 
+    background-repeat: no-repeat;      
+    height: 100%;
+    width:100%;    
+}
+.condivl1{
+    margin: 30px; 
+    
+}
+.condlevel2-1{
+    display: inline-block;    
+    color: white;
+    margin: 15px 15px;
+    text-align: left;
+}
+.condlevel2-1 table{
+    display: inline-block;     
+}
+td, th {    
+    text-align: left;
+    padding: 8px;    
+  }
+td:nth-child(odd){
+    width: 75px;
+}
+
+td:nth-child(even){
+    width: 50px;
+}
+table img{
+    width: 100%;
+}
+.condlevel2-2{
+    display: inline-block; 
+    text-align: left;
+    margin: 15px 15px;
+    /*float: right; */     
+}
+.condlevel2-2 label{
+    color: white;
+    
+}
+.condlevel2-2 label, input, textarea{
+    border-radius: 10px;
+    height: 50px;
+    margin: 10px;
+    padding-left: 5px;
+    
+}
+.condlevel2-2 textarea{
+    width: 95%;
+    height: 90px;
+    padding-top: 10px;
+}
+.condlevel2-2 input[name="subject"]{
+    width: 95%;
+}
+.condlevel2-2 input[type="submit"]{
+    font-weight: bold;
+    color: white;
+    font-size: larger;
+    border-radius: 15px;
+    padding: 10px;
+    background-color:  rgba(248, 31, 96, 0.973);
+    border: solid rgba(248, 31, 96, 0.973);
+
+}
+.condlevel2-2 input[type="submit"]:hover{
+    background-color: black;
+}				
