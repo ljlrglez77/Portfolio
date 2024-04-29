@@ -4,15 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>Laura's Portfolio</title>
+     <title>Laura's Portfolio</title>
 </head>
 <body>
-    <header>
+    <header >
         <nav class="menu">
             <div>            
                 <a class="ptrhome" href="#Home">Portfo<span>lio.</span></a>
                 <div class="contenedor"> 
-                    <a class="cmenu"href="#"><img src="/images/menu.png" > </a>
+                    <div class="cmenu">
+                        <button class="dropbtn"><img src="/images/bmenu1.png" > </buttton>
+                        <div class="dropdown-content">
+                            <a  href="#Home">Home</a>
+                            <a  href="#About">About</a>
+                            <a  href="#Skills">Skills</a>
+                            <a  href="#Projects">Projects</a>
+                            <a  href="#Contact">Contact</a>
+                        </div>
+                    </div>    
                     <div class="cnav">
                         <a class="homeright" href="#Home">Home</a>
                         <a class="homeright" href="#About">About</a>
@@ -26,11 +35,12 @@
         <br class="clr" id="Home">
         <div class="textId"> 
             <p >Hello 👋 I'm</p>
-            <h1 >Laura Gonzalez</h1>
-            <p id="sp1">And I'm a Front-End Developer</p>
+            <h1 style="color: rgba(5, 152, 250);">Laura Gonzalez</h1>
+            <p class="sp1">I'm a Network Specialist</p>
+            <p class="sp1"><span>& </span>a Front-End Developer</p>
         </div>
         <div class="boton">
-            <a href="#">I need a website <img src="/images/1.webp" ></a>
+            <a href="#Contact">I need a website <img src="/images/1.webp" ></a>
             <a href="#">I'm looking to hire <img src="/images/1.webp" > </a>
         </div>
     </header>
@@ -41,25 +51,87 @@
             <h2>About me</h2>
             <p>___ <span>who am I</span>  ___</p>
         </div>
-        <div class="contenedor">
+        
+        <div class="contenedor1">
             <div class="cimagA"> 
                 <img src="/images/mypicture.jpeg">    
             </div>
             <div class="ctextA">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur magni distinctio amet reiciendis harum possimus necessitatibus corporis, accusamus, natus rem sint voluptate a quam illo veritatis obcaecati, reprehenderit sequi in? </p>
+                <h3> <span>I'm Laura Gonzalez</span></h3> 
+                <br>                
+                <p>
+                    I'm a Network Specialist, and my goal is to design, implement, and maintain an organization's network to meet their needs and goals. This involves:
+                </p>
+                <ul>
+                    <li>Researching and evaluating network technologies, hardware, and software</li>
+                    <li>Creating network diagrams, specifications, and documentation</li>
+                    <li>Installing, configuring, and testing network devices, such as routers, switches, firewalls, servers, and access points</li>
+                    <li>Ensuring that network devices comply with security and performance standards</li>
+                    <li>Managing LANs, WANs, and other systems</li>
+                    <li>Ensuring network security with firewalls and antivirus software</li>
+                </ul>              
+                <p> 
+                    As a Front-End Developer my goal is to create user-friendly, and accessible GUIs to ensure that website visitors can navigate and interact with a website's graphical user interface (GUI) in an intuitive way. 
+                </p>
+                <br>
+                <p>    
+                    Also, I have experience in the education field as a Mathematics Tutor.   
+                </p>
             </div>
+            
         </div>        
     </section>
+    <br class="clr">
 
-
-    <section id="Skills">
+    <section id="Skills" >
         <div class="section2">
             <h2>My skills</h2>
             <p>___ <span>what I know</span>  ___</p>
         </div>
-        <div> </div>
-        <div></div>
+        <div class="skInfo">
+            <div class="skin1"> 
+                <h3> <span>My creative skills & experiences</span></h3>          
+                <br>
+                <p>I’m a Network Specialist and a Front- End Developer with a passion and strong 
+                    aptitude for learning new technologies and can work with an estimation of future 
+                    tasks and client feedback. I am a highly motivated, result-oriented, self-driven, 
+                    hard-working, fast learner and constantly seeking to improve my skills. I have a 
+                    firm knowledge of networking (protocols, routers, and switchs), Active Directory, 
+                    Windows Server, and Microsoft OS (XP, 2000, Vista, 7,8, 10, and 11), and good skills 
+                    troubleshooting technical issues of software and hardware. Also, I know Java, JavaScript, 
+                    HTML5, CSS3, Bootstrap, and Git.</p>
+            </div>
+            <div class="skin2">
+                <table>
+                    <tr>
+                        <td><img src="images/skills/net1.png"></td>
+                        <td style="width: 80px;"><img src="images/skills/router.png"></td>
+                        <td><img src="images/skills/switch.png"></td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/skills/active-directory-icon-10.jpg"></td>
+                        <td><img src="images/skills/server.png"></td>
+                        <td><img src="images/skills/windows.png"></td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/skills/java.webp"></td>
+                        <td><img src="images/skills/git.png"></td>
+                        <td><img src="images/skills/bootstrap.png"></td>
+                        
+                    </tr>
+                    <tr>
+                        <td><img src="images/skills/html.png"></td>
+                        </div><td><img src="images/skills/js.png"></td>                        
+                        <td><img src="images/skills/css.png"></td>                        
+                    </tr>
+                </table>
+                
+
+            </div>
+        </div>
+        
     </section>
+    <br class="clr">
 
 
     <section id="Projects">
@@ -70,8 +142,8 @@
         <div> </div>
         <div></div>
     </section>
+    <br class="clr">
     
-
     <section id="Contact">
         <div class="section2">
             <h2>Contact me</h2>
@@ -84,7 +156,7 @@
                 <table >
                     <tr>
                         <td >
-                            <img src="images/user.png">
+                            <img src="images/buser.png">
                         </td>
                         <td>
                             <h4>Name</h4> 
@@ -93,7 +165,7 @@
                     </tr>
                     <tr>
                         <td >
-                            <img src="images/map.png">
+                            <img src="images/bmap.png">
                         </td>
                         <td>
                             <h4>Address</h4> 
@@ -102,7 +174,7 @@
                     </tr>
                     <tr>
                         <td >
-                            <img src="images/email.png">
+                            <img src="images/bemail.png">
                         </td>
                         <td>
                             <h4>Email</h4>
@@ -115,7 +187,7 @@
                             <img src=""> 
                         </td>
                     </tr>
-
+    
                 </table>
                                     
             </div>
@@ -132,13 +204,19 @@
                     
             </div>
         </div>
+        <div class="dend"></div>
         
     </section>
+
     <footer>
         <div>
             <p>Created by 
-            <a href="#">Laura Gonzalez </a>| &copy; 2024 All rights reserved </p>                
+            <a href="#About">Laura Gonzalez </a>| &copy; 2024 All rights reserved </p>                
         </div>
-    </footer>
+    </footer>        
+    
+    <script>  
+        
+    </script>
 </body>     
 </html>
